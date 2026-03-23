@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+SMARKET is a React-based web application that allows users to explore and purchase creative products made by students. The platform showcases items like handmade jewellery, paintings, baked goods, and more in a simple and user-friendly interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of this project is to support Artisans by providing a digital space where they can display and sell their products easily.
 
-## Available Scripts
+Features
+- Browse a variety of student-made products
+- View product details (price, description, images)
+- Add to Cart functionality
+- Update quantity / remove items from cart
+- Automatic total price calculation
+- Responsive and clean UI design
+- Live deployed website using GitHub Pages
 
-In the project directory, you can run:
+Tech Stack
+- Frontend: React.js
+- Styling: CSS
+- Routing: React Router
+- State Management: Context API
+- Deployment: GitHub Pages
 
-### `npm start`
+Home Page
+<img width="1895" height="827" alt="Screenshot (522)" src="https://github.com/user-attachments/assets/1afb56a7-9c9b-4867-b2f1-1e9667c85be0" />
+<img width="1895" height="823" alt="Screenshot (523)" src="https://github.com/user-attachments/assets/3fbb32df-126e-41e9-a607-49ea48a998d2" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Cart Page
+<img width="1899" height="820" alt="Screenshot (528)" src="https://github.com/user-attachments/assets/bbccd69f-aa4b-4472-8a7c-c31d6d1ce23a" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contact Page
+<img width="1896" height="823" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/46bec2e1-5512-4457-b311-d23fefb3ecca" />
 
-### `npm test`
+Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 https://pio-25.github.io/smarket-project/
 
-### `npm run build`
+GitHub Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔗 https://github.com/pio-25/smarket-project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Future Enhancements
+- User login & authentication
+- Seller dashboard
+- Online payment integration
+- Product search & filters
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Authors
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed by:
+Pranali Nalavde
+Anisha Dhamale
