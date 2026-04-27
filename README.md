@@ -45,5 +45,5 @@ Future Enhancements
 Authors
 
 This project was developed by:
-Pranali Nalavde
+Pranali Nalavde and
 Anisha Dhamale
