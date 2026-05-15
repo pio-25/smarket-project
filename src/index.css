@@ -8,4 +8,14 @@ body {
   font-family: "Segoe UI", sans-serif;
   background-color: #fffef8;
   color: #5c3d2e;
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
 }

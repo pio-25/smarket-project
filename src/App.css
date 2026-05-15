@@ -1,64 +1,108 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 40px;
+  align-items: center;
+  padding: clamp(10px, 2vh, 15px) clamp(1rem, 5vw, 40px);
   background-color: #f4d7a1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 .header a {
-  margin-left: 20px;
+  margin-left: clamp(10px, 2vw, 20px);
   text-decoration: none;
   color: #333;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.header a:hover {
+  opacity: 0.7;
 }
 
 .products-section {
-  padding: 40px;
+  padding: clamp(20px, 5vw, 40px);
   text-align: center;
 }
 
 .page-content {
-  padding-top: 90px;      /* space for fixed navbar */
+  padding-top: clamp(20px, 5vh, 40px);      
   min-height: 100vh;
   background: #fffef6;
+  width: 100%;
 }
-
 
 .quote {
   font-style: italic;
-  margin-bottom: 30px;
+  margin-bottom: clamp(15px, 3vw, 30px);
+  padding: 0 20px;
 }
 
 .products-container {
   display: flex;
-  gap: 25px;
+  gap: clamp(15px, 3vw, 25px);
   justify-content: center;
   flex-wrap: wrap;
+  padding: 0 clamp(10px, 3vw, 20px);
 }
 
 .product-card {
   background: white;
-  padding: 20px;
-  width: 260px;
+  padding: clamp(15px, 2vw, 20px);
+  width: clamp(240px, 90vw, 260px);
   border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
 }
 
 .product-card img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   border-radius: 6px;
 }
 
 .chat-btn {
   margin-top: 10px;
-  padding: 8px 12px;
+  padding: clamp(6px, 1.5vh, 10px) clamp(10px, 2vw, 15px);
   background-color: #ff9800;
   border: none;
   color: white;
   cursor: pointer;
   border-radius: 4px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.chat-btn:hover {
+  background-color: #e68a00;
 }
 
 .footer {
   background-color: #f4d7a1;
-  padding: 15px;
+  padding: clamp(10px, 3vh, 20px);
   text-align: center;
+  width: 100%;
+}
+
+/* Responsiveness for Header on small mobile */
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .header a {
+    margin: 0 10px;
+  }
 }

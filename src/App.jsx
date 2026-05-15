@@ -17,7 +17,6 @@ function App() {
     <>
       
       <Navbar />
-
       <div className="page-content">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -28,9 +27,7 @@ function App() {
           <Route path="/product/:id" element={<ProductDetails />} />
 
         </Routes>
-      </div>
-
-      
+      </div>      
       <Footer />
     </>
   );

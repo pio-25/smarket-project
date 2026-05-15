@@ -9,7 +9,7 @@ const root = createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/smarket-project">
       <CartProvider>
         <App />
       </CartProvider>
