@@ -10,3 +10,24 @@
   gap: 25px;
   padding: 40px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+  }
+  .products {
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px 15px;
+  }
+  .products {
+    padding: 15px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -28,17 +28,20 @@ export function CartProvider({ children }) {
 
   
   const updateQty = (id, type) => {
+    if (type === "dec") {
+      const existingItem = cart.find((item) => item.id === id);
+      if (existingItem && existingItem.qty === 1) {
+        removeFromCart(id);
+        return;
+      }
+    }
+
     setCart(
       cart.map((item) =>
         item.id === id
           ? {
               ...item,
-              qty:
-                type === "inc"
-                  ? item.qty + 1
-                  : item.qty > 1
-                  ? item.qty - 1
-                  : 1,
+              qty: type === "inc" ? item.qty + 1 : item.qty - 1,
             }
           : item
       )

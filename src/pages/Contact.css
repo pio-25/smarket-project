@@ -60,3 +60,14 @@
   margin-top: 15px;
   color: #555;
 }
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .contact-container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+  .contact-form {
+    padding: 15px;
+  }
+}
