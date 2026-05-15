@@ -19,12 +19,17 @@
   flex-shrink: 0;
 }
 
-.header a {
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
   margin-left: clamp(1rem, 2vw, 2rem);
   text-decoration: none;
   color: #333;
   font-weight: 600;
-  transition: opacity 0.2s;
+  transition: all 0.2s ease;
   white-space: nowrap;
 }
 
@@ -50,11 +55,25 @@
   height: 3px;
   background-color: #5c3d2e;
   border-radius: 2px;
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .hamburger:hover span {
   background-color: #333;
+}
+
+/* Hamburger Animation when Active */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .products-section {
@@ -97,6 +116,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .product-card:hover {
@@ -162,8 +182,9 @@
     right: 0;
   }
 
-  .header a {
+  .nav-links a {
     margin: 1.5rem 0;
+    margin-left: 0;
     font-size: 1.2rem;
   }
 }
