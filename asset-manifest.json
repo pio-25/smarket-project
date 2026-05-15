@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/smarket-project/static/css/main.2d682664.css",
+    "main.css": "/smarket-project/static/css/main.be26d24d.css",
     "main.js": "/smarket-project/static/js/main.60962ba9.js",
     "index.html": "/smarket-project/index.html",
-    "main.2d682664.css.map": "/smarket-project/static/css/main.2d682664.css.map",
+    "main.be26d24d.css.map": "/smarket-project/static/css/main.be26d24d.css.map",
     "main.60962ba9.js.map": "/smarket-project/static/js/main.60962ba9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d682664.css",
+    "static/css/main.be26d24d.css",
     "static/js/main.60962ba9.js"
   ]
 }
